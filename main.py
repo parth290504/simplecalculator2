@@ -44,7 +44,7 @@ def calc():
     else:
         mod()
 
-    m = int(input("do you wish to do another calculation?\n Press 1 if yes\n Press 2 if no\n"))
+    m = int(input("\nDo you wish to do another calculation?\n Press 1 if yes\n Press 2 if no\n"))
     if m==1:
         calc()
 
@@ -54,6 +54,7 @@ def calc():
 
     else:
         print("enter a valid choice")
+        calc()
 
 calc()
 
